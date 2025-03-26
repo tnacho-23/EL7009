@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 
@@ -14,7 +14,7 @@ class ExampleControllerMinimal(Node):
         super().__init__('example_controller')
         self.publisher_left_ = self.create_publisher(Float64, 'left_wheel_cmd_vel', 10)
         self.publisher_right_ = self.create_publisher(Float64, 'right_wheel_cmd_vel', 10)
-        self._loop_rate = self.create_rate(20.0, self.get_clock())
+        self._loop_rate = self.create_rate(10.0, self.get_clock())
 
 def main(args=None):
     rclpy.init(args=args)

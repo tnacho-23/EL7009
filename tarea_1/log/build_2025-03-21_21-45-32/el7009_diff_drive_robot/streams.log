@@ -1,0 +1,60 @@
+[0.011s] Invoking command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/EL7009/tarea_1/el7009_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/EL7009/tarea_1/install/el7009_diff_drive_robot
+[0.189s] -- The C compiler identification is GNU 13.3.0
+[0.303s] -- The CXX compiler identification is GNU 13.3.0
+[0.329s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.453s] -- Detecting CXX compiler ABI info
+[0.556s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.563s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.574s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.716s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.782s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.858s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.966s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.967s] -- Added test 'lint_cmake' to check CMake code style
+[0.968s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.970s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done (0.9s)
+[0.976s] -- Generating done (0.0s)
+[0.978s] -- Build files have been written to: /home/EL7009/tarea_1/build/el7009_diff_drive_robot
+[0.983s] Invoked command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/EL7009/tarea_1/el7009_diff_drive_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/EL7009/tarea_1/install/el7009_diff_drive_robot
+[0.984s] Invoking command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/EL7009/tarea_1/build/el7009_diff_drive_robot -- -j16 -l16
+[1.028s] Invoked command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/EL7009/tarea_1/build/el7009_diff_drive_robot -- -j16 -l16
+[1.038s] Invoking command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/EL7009/tarea_1/build/el7009_diff_drive_robot
+[1.046s] -- Install configuration: ""
+[1.046s] -- Execute custom install script
+[1.046s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/launch/robot.launch.py
+[1.057s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/launch/rsp.launch.py
+[1.066s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/urdf/gazebo_control.xacro
+[1.075s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/urdf/inertial_macros.xacro
+[1.085s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/urdf/lidar.xacro
+[1.094s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/urdf/robot.urdf.xacro
+[1.103s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/urdf/robot_core.xacro
+[1.115s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/config/gz_bridge.yaml
+[1.124s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/worlds/empty.world
+[1.133s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/worlds/industrial-warehouse.sdf
+[1.141s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/worlds/obstacles.world
+[1.150s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/rviz/bot.rviz
+[1.160s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/lib/el7009_diff_drive_robot/example_controller.py
+[1.171s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/el7009_diff_drive_robot
+[1.180s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/el7009_diff_drive_robot
+[1.189s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/environment/ament_prefix_path.sh
+[1.199s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/environment/ament_prefix_path.dsv
+[1.210s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/environment/path.sh
+[1.219s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/environment/path.dsv
+[1.229s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/local_setup.bash
+[1.238s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/local_setup.sh
+[1.248s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/local_setup.zsh
+[1.257s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/local_setup.dsv
+[1.267s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/package.dsv
+[1.277s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/ament_index/resource_index/packages/el7009_diff_drive_robot
+[1.287s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/cmake/el7009_diff_drive_robotConfig.cmake
+[1.296s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/cmake/el7009_diff_drive_robotConfig-version.cmake
+[1.306s] -- Symlinking: /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/package.xml
+[1.318s] Invoked command in '/home/EL7009/tarea_1/build/el7009_diff_drive_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/EL7009/tarea_1/build/el7009_diff_drive_robot
