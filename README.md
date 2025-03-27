@@ -24,7 +24,13 @@ sudo docker run -it --rm --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" -
 
 - Abrir una nueva terminal de un contenedor corriendo
 ```
-sudo docker exec -it -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 rhopeful_keldysh bash
+sudo docker exec -it -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 <container_id_or_name> bash
+```
+
+- Start stopped container
+```
+sudo docker start -i <container_id_or_name>
+
 ```
 
 
@@ -53,3 +59,5 @@ sudo docker ps
 ```
 sudo docker ps -a
 ```
+
+
