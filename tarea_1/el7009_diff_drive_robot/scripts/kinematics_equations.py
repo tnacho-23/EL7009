@@ -86,6 +86,12 @@ def forward(x: float, dt: float = 5.0):
     rclpy.shutdown()
 
 if __name__ == '__main__':
-    rotate(3.14/2, 5)
-    forward(5, 10)
-    rotate(-3.14/2, 5)
+    rotate(2.8/2, 10)
+    forward(3.6, 20)
+    rotate(2.8/2, 10)
+    forward(3.0, 20)
+    rotate(2.8/2, 10)
+    forward(3.6, 20)
+    rotate(2.8/2, 10)
+    forward(3.5, 20)
+

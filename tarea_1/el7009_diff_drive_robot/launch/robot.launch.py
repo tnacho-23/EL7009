@@ -17,8 +17,8 @@ def generate_launch_description():
     rviz = LaunchConfiguration('rviz')
 
     # Path to default world 
-    # world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'industrial-warehouse.sdf')
-    world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'empty.world')
+    world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'industrial-warehouse.sdf')
+    # world_path = os.path.join(get_package_share_directory(package_name),'worlds', 'empty.world')
 
     # Launch Arguments
     declare_world = DeclareLaunchArgument(
