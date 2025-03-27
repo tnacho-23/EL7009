@@ -31,7 +31,7 @@ def rotate(theta: float, dt: float = 5.0):
     thread.start()
 
     # Publish speeds for dt seconds
-    minimal_publisher.get_logger().info("Publishing speeds for 4 seconds")
+    minimal_publisher.get_logger().info("Publishing speeds")
     for i in range(dt*10):
         msg = Float64()
         msg.data = -w
@@ -65,7 +65,7 @@ def forward(x: float, dt: float = 5.0):
     thread.start()
 
     # Publish speeds for dt seconds
-    minimal_publisher.get_logger().info("Publishing speeds for 4 seconds")
+    minimal_publisher.get_logger().info("Publishing speeds")
     for i in range(dt*10):
         msg = Float64()
         msg.data = w
