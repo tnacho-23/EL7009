@@ -11,6 +11,7 @@
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/worlds/obstacles.world
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/rviz/bot.rviz
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/lib/el7009_diff_drive_robot/example_controller.py
+/home/EL7009/tarea_1/install/el7009_diff_drive_robot/lib/el7009_diff_drive_robot/kinematics_equations.py
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/ament_index/resource_index/package_run_dependencies/el7009_diff_drive_robot
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/ament_index/resource_index/parent_prefix_path/el7009_diff_drive_robot
 /home/EL7009/tarea_1/install/el7009_diff_drive_robot/share/el7009_diff_drive_robot/environment/ament_prefix_path.sh
