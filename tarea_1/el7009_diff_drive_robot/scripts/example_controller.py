@@ -26,9 +26,9 @@ def main(args=None):
 
     # Publish speeds for 4 seconds
     minimal_publisher.get_logger().info("Publishing speeds for 4 seconds")
-    for i in range(40): 
+    for i in range(40):
         msg = Float64()
-        msg.data = 1.0
+        msg.data = -1.0
         minimal_publisher.publisher_left_.publish(msg)
         msg.data = 1.0
         minimal_publisher.publisher_right_.publish(msg)

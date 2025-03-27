@@ -13,17 +13,18 @@ xhost +local:docker
 
 - Correr por defecto
 ```
-docker run -it  --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --volume="/home/ignacio/EL7009:/home/EL7009:rw" ros2_jazzy_devel
+sudo docker run -it  --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --volume="/home/ignacio/EL7009:/home/EL7009:rw" ros2_jazzy_devel
 ```
+
 
 - Correr y que el contenedor se apague al cerrarlo
 ```
-docker run -it --rm --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --volume="/home/ignacio/EL7009:/home/EL7009:rw" ros2_jazzy_devel
+sudo docker run -it --rm --gpus all --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --volume="/home/ignacio/EL7009:/home/EL7009:rw" ros2_jazzy_devel
 ```
 
 - Abrir una nueva terminal de un contenedor corriendo
 ```
-docker exec -it -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 rhopeful_keldysh bash
+sudo docker exec -it -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 rhopeful_keldysh bash
 ```
 
 
@@ -32,7 +33,23 @@ docker exec -it -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 rhopeful_keldysh bash
 ```
 sudo docker rmi $(sudo docker images -q) -f
 ```
-- Abrir empty world en gazebo
+
+- Borrar todos los contenedores detenidos
 ```
-ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf
+sudo docker rm $(sudo docker ps -a -q)
+```
+
+- Borrar todos los contenedores 
+```
+sudo docker rm -f $(sudo docker ps -a -q)
+```
+
+- Ver contenedores activos
+```
+sudo docker ps
+```
+
+- Ver todos los contenedores (activos y detenidos)
+```
+sudo docker ps -a
 ```
