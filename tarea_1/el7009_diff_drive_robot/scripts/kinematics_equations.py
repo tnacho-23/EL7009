@@ -8,8 +8,8 @@ from std_msgs import msg
 from std_msgs.msg import   Float64
 import numpy as np
 
-l = 0.3076
-r = 0.045
+l = 0.35
+r = 0.05
 
 class Kinematics(Node):
 

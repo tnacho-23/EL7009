@@ -319,6 +319,9 @@ ament_cmake_symlink_install_programs("/home/EL7009/tarea_1/el7009_diff_drive_rob
 # install(PROGRAMS "scripts/kinematics_equations.py" "DESTINATION" "lib/el7009_diff_drive_robot")
 ament_cmake_symlink_install_programs("/home/EL7009/tarea_1/el7009_diff_drive_robot" PROGRAMS "scripts/kinematics_equations.py" "DESTINATION" "lib/el7009_diff_drive_robot")
 
+# install(PROGRAMS "scripts/dynamic_frame_tf2_broadcaster.py" "DESTINATION" "lib/el7009_diff_drive_robot")
+ament_cmake_symlink_install_programs("/home/EL7009/tarea_1/el7009_diff_drive_robot" PROGRAMS "scripts/dynamic_frame_tf2_broadcaster.py" "DESTINATION" "lib/el7009_diff_drive_robot")
+
 # install(FILES "/home/EL7009/tarea_1/build/el7009_diff_drive_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/el7009_diff_drive_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/EL7009/tarea_1/el7009_diff_drive_robot" FILES "/home/EL7009/tarea_1/build/el7009_diff_drive_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/el7009_diff_drive_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

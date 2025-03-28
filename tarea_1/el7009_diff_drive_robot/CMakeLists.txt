@@ -28,6 +28,13 @@ install(
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS
+  scripts/dynamic_frame_tf2_broadcaster.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
